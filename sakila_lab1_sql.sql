@@ -1,15 +1,15 @@
-use sakila;
+use linkedin_jobs;
 
 -- Retrieve all the data from the tables actor, film and customer.
 SELECT 
-    *
+    count(*)
 FROM
-    actor;
+    da_jobs;
 
 SELECT 
-    *
+    count(*)
 FROM
-    film;
+    mix_jobs;
 
 SELECT 
     *
